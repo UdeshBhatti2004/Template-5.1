@@ -1,0 +1,999 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-div{
+    height: 15vw;
+    display: flex;
+}
+
+.image-div img{
+    width: 100%;
+    margin-top: -5vw;
+    height: 52vw;
+ 
+}
+
+.header{
+    display: flex;
+}
+
+.company-div h1{
+    color: orange;
+    margin-left: 2vw;
+    margin-top: 2.9vw;
+    font-size: 2vw
+ }
+
+ .name-div h1{
+    margin-left: 1vw;
+    margin-top: 2.9vw;
+    font-size: 2vw;
+}
+
+.outer{
+    background-color:#5b9a9dd2;
+    height: 3vw;
+    width: 3vw;
+    border: 0.2vw solid #5b9a9dd2;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+.inner{
+    background-color:#5b9a9dd2;
+     height: 2.7vw;
+     width: 2.6vw;
+     margin-left: 0.2vw;
+     margin-top: 0.1vw;
+  
+}
+
+.back-ground{
+    background-color:#005036c9;
+    height: 24vw;
+    width: 25vw;
+    border-bottom-left-radius: 12vw;
+    border-bottom-right-radius: 12vw;
+    margin-left: 58vw;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.header-part-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    color: white;
+    font-size: 1.7vw;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9vw;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.text-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9vw;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.footer-part{
+    display: flex;
+}
+
+.footer-part-1{
+    height: 15vw;
+    width:50%;
+}
+.footer-part-2{
+    background-color:#005036c9;
+    height: 12vw;
+    width: 37vw;
+    margin-left: 4vw;
+    position: relative;
+    bottom:  0.17vw;
+
+
+}
+
+.rest-content{
+    display: flex;
+}
+
+.our-service{
+    margin-top: 4vw;
+    margin-left: 20vw;
+}
+
+.our-service h1{
+    color:#005036c9;
+    font-size: 2vw; 
+}
+
+.number h1{
+    color: orangered;
+    font-size: 4vw;
+    margin-left: 2vw;
+}
+
+.number-content h1{
+   margin-left: 0.5vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 1.5vw;
+ 
+}
+
+.number-content p{
+    margin-left: 0.5vw;
+    width: 40vw;
+    font-size: 1vw;
+}
+
+
+.about-us h1{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.about-us p{
+    margin-left: 1vw;
+    font-size: 1vw;
+    color: white;
+    margin-top: 0.5vw;
+}
+
+.footer-part-2-1{
+   background-color: orangered;
+   display: flex;
+   flex-direction: column;
+   height: 15vw;
+   margin-top: 2vw;
+   position: relative;
+   
+}
+
+
+
+.contact-us h1{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.contact-us-content p{
+    margin-left: 1vw;
+    font-size: 1vw;
+    color: white;
+    margin-top: 1vw;
+}
+
+.contact-us-content-2{
+    margin-top: 3vw;
+}
+
+.footer-part-2-1-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(191, 230, 255, 0.852);
+    height: 5vw;
+    width: 37vw;
+    position: relative;
+}
+
+.footer-part-2-1-2 h2{
+    margin-top: 2vw;
+    margin-left: 12vw;
+    color:rgb(79, 108, 150);
+    font-size: 1.5vw;
+}
+
+
+.footer-part-4{
+    margin-top: 2vw;
+}
+
+.line-div{
+    background-color: orangered;
+    height: 2vw;
+    margin-top: 6vw;
+    
+}
+
+.rest-content-2{
+    display: flex;
+}
+
+.number-content-2 h1{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    color:r#005036c9;
+    font-size: 2vw;
+   
+ }
+ 
+ .number-content-2 p{
+     margin-left: 0.5vw;
+     width: 40vw;
+     font-size: 1vw;
+ }
+
+ .number-2 h1{
+    color: orangered;
+    font-size: 4vw;
+    margin-left: 2vw;
+}
+
+.number-content-2 h1{
+   margin-left: 0.5vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 1.5vw;
+}
+
+
+.rest-content-3{
+    display: flex;
+}
+
+.number-content-3 h1{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    color:#005036c9;
+    font-size: 2vw;
+ }
+ 
+ .number-content-3 p{
+     margin-left: 0.5vw;
+     width: 40vw;
+     font-size: 1vw;
+ }
+
+ .number-3 h1{
+    color: orangered;
+    font-size: 4vw;
+    margin-left: 2vw;
+}
+
+.number-content-3 h1{
+   margin-left: 0.5vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 1.5vw;
+}
+
+
+/* MEDIA QUERY */
+
+@media(max-width: 1553px){
+    .footer-part-2{
+        background-color:#005036c9;
+        height: 20vw;
+        width: 40vw;
+        margin-left: 6vw;
+        position: relative;
+        bottom:  0.2vw;
+    
+    
+    }
+
+    .footer-part-2-1-2 {
+        width: 40vw;
+    }
+
+    .footer-part-3{
+        position: relative;
+        bottom: 4vw;
+    }
+    .footer-part-4{
+        position: relative;
+        bottom: 3vw;
+    }
+
+    .footer-part-2{
+        height: 15vw;
+        width: 40vw;
+    }
+
+    .about-us h1{
+        margin-left: 14vw;
+        margin-top: 2vw;
+    }
+
+    .about-us p{
+        margin-top: 1vw;
+    }
+
+    .footer-part-2-1{
+        margin-top: 4vw;
+    }
+
+    .footer-part-3{
+        margin-top: 4vw;
+    }
+}
+
+
+ @media (max-width:800px){ *
+    .footer-part-3{
+        position: relative;
+        bottom: 4vw;
+    }
+    .footer-part-4{
+        position: relative;
+        bottom: 3vw;
+    }
+
+    .footer-part-2{
+        height: 15vw;
+        width: 40vw;
+        position: relative;
+        bottom: 0.4vw;
+    }
+
+    .about-us h1{
+        margin-left: 14vw;
+        margin-top: 2vw;
+    }
+
+    .about-us p{
+        margin-top: 1vw;
+    }
+
+    .footer-part-2-1{
+        margin-top: 4vw;
+    }
+
+    .footer-part-3{
+        margin-top: 4vw;
+    }
+}
+
+@media(max-width: 630px){
+    
+    
+.image-div img{
+    width: 100%;
+    margin-top: 1vw;
+    height: 65vw;
+}
+
+.header{
+    display: flex;
+}
+
+.company-div h1{
+    color: orange;
+    margin-left: 2vw;
+    margin-top: 5.5vw;
+    font-size: 3vw
+ }
+
+ .name-div h1{
+    margin-left: 1vw;
+    margin-top: 5.5vw;
+    font-size: 3vw;
+}
+
+.outer{
+    background-color:#5b9a9dd2;
+    height: 5vw;
+    width: 5vw;
+    border: 0.2vw solid #5b9a9dd2;
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+
+.inner{
+    background-color:#5b9a9dd2;
+     height: 4vw;
+     width: 4vw;
+     margin-left: 0.5vw;
+     margin-top: 0.5vw;
+  
+}
+
+.back-ground{
+    background-color:#005036c9;
+    height: 33vw;
+    width: 32vw;
+    border-bottom-left-radius: 16vw;
+    border-bottom-right-radius: 16vw;
+    margin-left: 58vw;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+
+.header-part-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5vw;
+    color: white;
+    font-size: 2.4vw;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+    color: white;
+    font-size: 2.4vw;
+}
+
+.text-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+    color: white;
+    font-size: 2.5vw;
+}
+
+
+.footer-part{
+    display: flex;
+}
+
+.footer-part-1{
+    height: 15vw;
+    width:50%;
+}
+.footer-part-2{
+    background-color:#005036c9;
+    height: 20vw;
+    width: 40vw;
+    margin-left: 6vw;
+    position: relative;
+    bottom:  0.5vw;
+
+
+}
+
+.rest-content{
+    display: flex;
+    margin-top: 1.5vw;
+}
+
+.our-service{
+    margin-top: 4vw;
+    margin-left: 17vw;
+}
+
+.our-service h1{
+    color:#005036c9;
+    font-size: 3vw; 
+}
+
+.number h1{
+    color: orangered;
+    font-size: 5vw;
+    margin-left: 3vw;
+}
+
+.number-content h1{
+   margin-left: 1vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 2vw;
+ 
+}
+
+.number-content p{
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    width: 43vw;
+}
+
+
+.about-us h1{
+    margin-left: 12.5vw;
+    margin-top: 3vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.about-us p{
+    margin-left: 1vw;
+    font-size: 1vw;
+    color: white;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    width: 35vw;
+    margin-left: 2vw;
+}
+
+.footer-part-2-1{
+   background-color: orangered;
+   display: flex;
+   flex-direction: column;
+   height: 19vw;
+   margin-top: 5.4vw;
+   position: relative;
+   
+}
+
+
+
+.contact-us h1{
+    margin-left: 12.5vw;
+    margin-top: 2.5vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.contact-us-content p{
+    margin-left: 1vw;
+    font-size: 1vw;
+    color: white;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    width: 35vw;
+    margin-left: 2vw;
+}
+
+.contact-us-content-2{
+    margin-top: 3vw;
+}
+
+.footer-part-2-1-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(191, 230, 255, 0.852);
+    height: 10vw;
+    width: 40vw;
+    position: relative;
+
+}
+
+.footer-part-2-1-2 h2{
+    margin-top: 3.5vw;
+    margin-left: 11vw;
+    color:rgb(79, 108, 150);
+    font-size: 2vw;
+}
+
+
+.footer-part-4{
+    margin-top: 2vw;
+}
+
+.line-div{
+    background-color: orangered;
+    height: 2vw;
+    margin-top: 6vw;
+    
+}
+
+.rest-content-2{
+    display: flex;
+}
+
+.number-content-2 h1{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    color:r#005036c9;
+    font-size: 2vw;
+   
+ }
+ 
+ .number-content-2 p{
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    width: 43vw;
+ }
+
+ .number-2 h1{
+    color: orangered;
+    font-size: 5vw;
+    margin-left: 3vw;
+}
+
+.number-content-2 h1{
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    color:#005036c9;
+    font-size: 2vw;
+}
+
+
+.rest-content-3{
+    display: flex;
+}
+
+.number-content-3 h1{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    color:#005036c9;
+    font-size: 2vw;
+ }
+ 
+ .number-content-3 p{
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    width: 43vw;
+ }
+
+ .number-3 h1{
+    color: orangered;
+    font-size: 5vw;
+    margin-left: 3vw;
+}
+
+.number-content-3 h1{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    color:r#005036c9;
+    font-size: 2vw;
+   
+}
+
+.footer-part-3{
+    margin-top: 6vw;
+    position: relative;
+    bottom: 5vw;
+}
+
+.footer-part-4{
+    position: relative;
+    bottom: 3vw;
+}
+
+}
+
+@media(max-width: 466px){
+    .image-div img{
+        width: 100%;
+        margin-top: -3vw;
+        height: 65vw;
+    }
+
+    .company-div h1{
+        color: orange;
+        margin-left: 2vw;
+        margin-top: 4.5vw;
+        font-size: 2vw
+     }
+    
+     .name-div h1{
+        margin-left: 1vw;
+        margin-top: 4.5vw;
+        font-size: 2vw;
+    }
+    
+    .outer{ 
+        background-color:#5b9a9dd2;
+        height: 3vw;
+        width: 3vw;
+        border: 0.2vw solid #5b9a9dd2;
+        margin-top: 4vw;
+        margin-left: 3vw;
+    }
+    
+    .inner{
+        background-color:#5b9a9dd2;
+         height: 2.7vw;
+         width: 2.6vw;
+         margin-left: 0.2vw;
+         margin-top: 0.1vw;
+      
+    }
+
+    .footer-part-2{
+        background-color:#005036c9;
+        height: 30vw;
+        width: 42vw;
+        margin-left: 4vw;
+        position: relative;
+        bottom:  0.8vw;
+    
+    
+    }
+
+    .footer-part-2-1{
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        height: 19vw;
+        margin-top: 10vw;
+        position: relative;
+        
+     }
+
+     .footer-part-2-1-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(191, 230, 255, 0.852);
+    height: 10vw;
+    width: 47vw;
+    position: relative;
+
+}
+
+
+.about-us h1{
+    margin-left: 12.5vw;
+    margin-top: 4.5vw;
+    font-size: 3vw;
+    color: white;
+}
+
+.about-us p{
+    margin-left: 2.5vw;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: 3vw;
+    line-height: 2.2vw;
+    width: 36vw;
+}
+
+.our-service{
+    margin-top: 4.5vw;
+    margin-left: 17vw;
+}
+
+.our-service h1{
+    color:#005036c9;
+    font-size: 3vw; 
+}
+.rest-content{
+    margin-top: 3vw;
+}
+
+
+.number h1{
+    color: orangered;
+    font-size: 7vw;
+    margin-left: 2vw;
+    margin-top: 0.5vw;
+}
+
+.number-content h1{
+   margin-left: 0.9vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 2.5vw;
+ 
+}
+
+.number-content p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.5vw;
+}
+
+
+.number-2 h1{
+    color: orangered;
+    font-size: 7vw;
+    margin-left: 2vw;
+    margin-top: 0.5vw;
+}
+
+.number-content-2 h1{
+   margin-left: 0.9vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 2.5vw;
+ 
+}
+
+.number-content-2 p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.5vw;
+}
+
+.rest-content-2{
+    display: flex;
+    position: relative;
+   
+}
+
+
+.footer-part-2-1{
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    margin-top: 5.7vw;
+    position: relative;
+    
+ }
+
+.contact-us h1{
+    margin-left: 12vw;
+    margin-top: 5vw;
+    font-size: 3vw;
+    color: white;
+}
+
+.contact-us-content p{
+    margin-left: 1vw;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: 1vw;
+    line-height: 1.5vw;
+    width: 35vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+}
+
+.contact-us-content-2{
+    margin-top: 5vw;
+}
+
+.rest-content-3{
+    margin-top: 7vw;
+}
+
+
+.number-3 h1{
+    color: orangered;
+    font-size: 7vw;
+    margin-left: 2vw;
+    margin-top: 0.5vw;
+}
+
+.number-content-3 h1{
+   margin-left: 0.9vw;
+   margin-top: 0.5vw;
+   color:#005036c9;
+   font-size: 2.5vw;
+ 
+}
+
+.number-content-3 p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.5vw;
+}
+
+
+.footer-part-2-1-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(191, 230, 255, 0.852);
+    height: 12vw;
+    width: 42vw;
+    position: relative;
+}
+
+.footer-part-2-1-2 h2{
+   font-size: 2.5vw; 
+   margin-left: 9.5vw;
+   margin-top: 4.5vw;
+}
+
+.line-div{
+    margin-top: 10vw;
+}
+
+}
+
+
+@media(max-width:400px){
+    .image-div img{
+        width: 100%;
+        margin-top: 1vw;
+        height: 75vw;
+    }
+
+    
+.company-div h1{
+    color: orange;
+    margin-left: 2vw;
+    margin-top: 6.5vw;
+    font-size: 2vw
+ }
+
+ .name-div h1{
+    margin-left: 1vw;
+    margin-top: 6.5vw;
+    font-size: 2vw;
+} 
+
+.outer{
+    background-color:#5b9a9dd2;
+    height: 3vw;
+    width: 3vw;
+    border: 0.2vw solid #5b9a9dd2;
+    margin-top: 6vw;
+    margin-left: 3vw;
+}
+
+
+.number-content p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.7vw;
+    
+}
+
+.number-content-2 p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.7vw;
+  
+}
+
+.number-content-3 p{
+    margin-left: 0.9vw;
+    width: 40vw;
+    font-size: 1.7vw;
+}
+
+.footer-part-4{
+    margin-top: 9w;
+}
+
+
+
+.footer-part-2{
+    background-color:#005036c9;
+    height: 35vw;
+    width: 42vw;
+    margin-left: 4vw;
+    position: relative;
+    bottom:  0.8vw;
+
+
+}
+
+.footer-part-2-1{
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    height: 37vw;
+    margin-top: 11vw;
+    position: relative;
+    
+ }
+
+ .footer-part-2-1-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(191, 230, 255, 0.852);
+    height: 14vw;
+    width: 42vw;
+    position: relative;
+
+}
+
+.line-div{
+   margin-top: 17vw;
+}
+}
+
+ 
+
+    
+
+
+
+
+
+
